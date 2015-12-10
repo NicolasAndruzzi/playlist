@@ -24,24 +24,28 @@ header{
   top: 30vh;
   height:10px;
   color: purple;
-  font-size: 65px;
+  font-size: 8vh;
 }
 
 #splashButton{
   border-radius: 10px;
   position: relative;
   top: 39vh;
-  height: 40px;
-  width: 230px;
-  font-size: 25px;
+  height: 5vh;
+  width: 17vw;
+  font-size: 3.25vh;
   color: white;
   background-color: grey;
 }
 
 #tracks{
+  position: absolute;
+  opacity: .19;
   float: right;
   width: 50vw;
-  height: 100vh;
+  height: 85vh;
+  top: 7.5vh;
+  right: 0px;
 }
 
 footer{
@@ -51,7 +55,7 @@ footer{
   bottom: 0px;
   line-height: 7.5vh;
   position: fixed;
-  font-size: 30px;
+  font-size: 4vh;
   color: white;
 }
 
