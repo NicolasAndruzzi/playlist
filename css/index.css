@@ -1,0 +1,60 @@
+*{
+  font-family: avenir;
+}
+
+header{
+  height: 7.5vh;
+  width: 100%;
+  background: grey;
+  border-bottom: 1px solid;
+  position: fixed;
+}
+
+#splashText{
+  position: absolute;
+  top: 7.5vh;
+  left: 0px;
+  height: 85vh;
+  width: 50vw;
+  text-align: center;
+}
+
+#text{
+  position: relative;
+  top: 30vh;
+  height:10px;
+  color: purple;
+  font-size: 65px;
+}
+
+#splashButton{
+  border-radius: 10px;
+  position: relative;
+  top: 39vh;
+  height: 40px;
+  width: 230px;
+  font-size: 25px;
+  color: white;
+  background-color: grey;
+}
+
+#tracks{
+  float: right;
+  width: 50vw;
+  height: 100vh;
+}
+
+footer{
+  height: 7.5vh;
+  width: 100%;
+  background: grey;
+  bottom: 0px;
+  line-height: 7.5vh;
+  position: fixed;
+  font-size: 30px;
+  color: white;
+}
+
+#footerText{
+  margin-left: 75px;
+}
